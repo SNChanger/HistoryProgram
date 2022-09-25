@@ -1,0 +1,7 @@
+DEF f(x)=x^3-3*x+1
+SET WINDOW -4,4,-4,4
+DRAW GRID
+FOR x=-4 TO 4 STEP 0.1
+   PLOT LINES: x,f(x);
+NEXT x
+END
